@@ -148,18 +148,18 @@ header {
 }
 
 @media(min-width: 1024px) {
-    .card__container{
+    .card__container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
         margin: 3em 0;
     }
 
-    .card{
+    .card {
         width: clamp(300px, 300px, 300px);
     }
 
-    .card img{
+    .card img {
         width: clamp(275px, 275px, 275px);
     }
 }
